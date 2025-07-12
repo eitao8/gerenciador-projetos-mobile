@@ -8,7 +8,7 @@ Aplicativo mobile simples para gerenciamento de projetos, desenvolvido com React
 - Expo
 - TypeScript
 - React Navigation
-- Firebase (ou outro backend, veja pasta `/backend`)
+- Supabase
 - Node.js (caso use o backend local)
 
 ## 📁 Estrutura do Projeto
@@ -49,12 +49,9 @@ Ou use o app **Expo Go** no seu celular para escanear o QR Code.
 
 - ✅ Criar projetos
 - ✅ Visualizar e listar projetos
+- ✅ Orçamento de placas solares
 - ✅ Interface responsiva
-- ✅ Persistência de dados (Firebase ou backend próprio)
-
-## 📷 Screenshots
-
-> *(Adicione imagens do app rodando aqui se quiser)*
+- ✅ Persistência de dados (Supabase)
 
 ## 📄 Licença
 
