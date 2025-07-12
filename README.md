@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+# 📱 Aplicativo de Gerenciamento de Projetos
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile simples para gerenciamento de projetos, desenvolvido com React Native e Expo. Permite criar, visualizar e organizar projetos de forma prática.
 
-## Get started
+## 🚀 Tecnologias Utilizadas
 
-1. Install dependencies
+- React Native
+- Expo
+- TypeScript
+- React Navigation
+- Firebase (ou outro backend, veja pasta `/backend`)
+- Node.js (caso use o backend local)
 
-   ```bash
-   npm install
-   ```
+## 📁 Estrutura do Projeto
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+/app               → Telas e navegação principal  
+/backend           → Backend do app (API ou Firebase)  
+/components        → Componentes reutilizáveis  
+/assets            → Imagens, ícones, fontes etc.  
+/hooks             → Hooks customizados  
+/constants         → Constantes globais  
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠️ Como Rodar Localmente
 
-## Learn more
+1. **Clone o repositório:**
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+git clone https://github.com/eitao8/gerenciador-projetos-mobile.git
+cd gerenciador-projetos-mobile
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2. **Instale as dependências:**
 
-## Join the community
+```bash
+npm install
+```
 
-Join our community of developers creating universal apps.
+3. **Execute o projeto com o Expo:**
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx expo start
+```
+
+Ou use o app **Expo Go** no seu celular para escanear o QR Code.
+
+## ✅ Funcionalidades
+
+- ✅ Criar projetos
+- ✅ Visualizar e listar projetos
+- ✅ Interface responsiva
+- ✅ Persistência de dados (Firebase ou backend próprio)
+
+## 📷 Screenshots
+
+> *(Adicione imagens do app rodando aqui se quiser)*
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Desenvolvido por [Eitão](https://github.com/eitao8) durante estágio.
