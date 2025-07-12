@@ -15,7 +15,7 @@ Aplicativo mobile simples para gerenciamento de projetos, desenvolvido com React
 
 ```
 /app               → Telas e navegação principal  
-/backend           → Backend do app (API ou Firebase)  
+/backend           → Backend do app (Supabase)  
 /components        → Componentes reutilizáveis  
 /assets            → Imagens, ícones, fontes etc.  
 /hooks             → Hooks customizados  
